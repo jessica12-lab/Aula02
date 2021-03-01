@@ -15,6 +15,7 @@ public class DesvioSimples {
 		/*Aqui devemos criar uma solução para verificar a idade do usuário*/
 		
 		leitor.close();
+		//abaixo tem um if simples, se for verdadeiro o if fara um desvio e a linha com a mensagem sera executada
 		if (idade>=12) {
 			System.out.println("Você pode jogar.");
 			
